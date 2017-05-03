@@ -152,6 +152,24 @@ video {
 	max-width: 100%;
 }
 
+/*style rule for copyright div*/
+#copyright {
+	float: left;
+	margin-top: 2em;
+	width: 80%;
+}
+
+/*style rule for social div*/
+#social {
+	float: right;
+	width: 20%;
+}
+
+/*style rule for social media icons*/
+#social img {
+	padding: 0.5em;
+}
+
 
 /*media query for tablet viewport targets screen size with a minimum width of 481px*/
 
@@ -343,6 +361,12 @@ video {
 	.btn {
 		margin-left: 12em;
 	}
+	
+	/*style rule for form unordered list element*/
+	form ul {
+		margin-left: 2em;
+	}
+	
 			
 }
 
@@ -444,6 +468,7 @@ video {
 		background-color: #2A2A2A;
 		margin-top: -0.2em;
 		padding: 2em;
+		overflow: auto;
 	}
 	
 	/*style specifies color and left margin for the section element*/
